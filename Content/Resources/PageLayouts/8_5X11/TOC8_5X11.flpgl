@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <Page Name="First Right" Padding="20px" PageSize="Letter" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#000000" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="85px" Y="817px" Width="491px" TextAlign="right" VerticalAlign="top">
@@ -72,7 +72,7 @@
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-Simple-Body-Row1">
                                     <xhtml:td xhtml:class="TableStyle-Simple-BodyB-Column1-Row1">
-                                        <xhtml:p xhtml:class="FrameFooterText2">CONTENTS │<MadCap:variable xhtml:name="General.UserGuideTitle" /></xhtml:p>
+                                        <xhtml:p xhtml:class="FrameFooterText2">CONTENTS │<MadCap:variable xhtml:name="general.guide-title" /></xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-Simple-BodyA-Column1-Row1">
                                         <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">

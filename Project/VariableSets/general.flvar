@@ -1,38 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultVariableSet>
   <Variable
     Comment=""
-    Name="CompanyName">My Company Name, LLC</Variable>
+    Name="company"
+    EvaluatedDefinition="Company Name">Company Name</Variable>
   <Variable
     Comment=""
-    Name="PhoneNumber">858 123 4567</Variable>
+    Name="phone">858 123 4567</Variable>
   <Variable
-    Name="StreetAddress"
+    Name="street"
     Comment=""
     Definition="Some text"
     OriginalName="StreetAddress">1234 Lorem Ipsum</Variable>
   <Variable
-    Name="ProductName"
+    Name="product"
     Comment=""
-    OriginalName="ProductName">FictionSoft</Variable>
+    OriginalName="ProductName"
+    EvaluatedDefinition="Product Name">Product Name</Variable>
   <Variable
-    Name="Fax"
+    Name="fax"
     Comment=""
     OriginalName="Fax">Fax 123-987-654</Variable>
   <Variable
-    Name="CityStateZip"
+    Name="city-state-zip"
     Comment=""
     Definition="Some text">La Jolla, CA 92037</Variable>
   <Variable
-    Name="UserGuideTitle"
-    Comment="">User Guide A</Variable>
+    Name="guide-title"
+    Comment=""
+    EvaluatedDefinition="Application Note">Application Note</Variable>
   <Variable
-    Name="VersionNumber"
+    Name="version"
     OriginalName="VersionNumberDot">1.0</Variable>
   <Variable
-    Name="Year"
+    Name="year"
     Comment=""
     Type="DateTime"
     LastUpdated="2015-12-31T09:28:31.1216229-08:00"
     EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="part-number"
+    Comment=""
+    EvaluatedDefinition="AAA-AAAAA">AAA-AAAAA</Variable>
+  <Variable
+    Name="part-number"
+    Comment=""
+    EvaluatedDefinition="BBB-BBBBB">BBB-BBBBB</Variable>
+  <Variable
+    Name="part-number"
+    Comment=""
+    EvaluatedDefinition="CCC-CCCCC">CCC-CCCCC</Variable>
+  <Variable
+    Name="part-number"
+    Comment=""
+    EvaluatedDefinition="DDD-DDDDD">DDD-DDDDD</Variable>
 </CatapultVariableSet>

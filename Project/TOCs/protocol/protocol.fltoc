@@ -4,7 +4,7 @@
   conditions="">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/Title.htm"
+    Link="/Content/print_only/Title.htm"
     StartSection="false"
     PageNumber="1"
     PageType="normal"
@@ -14,49 +14,11 @@
     BreakType="pageLayout"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/Copyright.htm"
+    Link="/Content/print_only/Copyright.htm"
     StartPageLayout="true"
     StartSection="false"
     BreakType="pageLayout"
     PageLayout="/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl"></TocEntry>
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/TOC.htm"
-    StartSection="false"
-    PageNumber="1"
-    PageNumberReset="continue"
-    StartChapter="true"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"
-    PageType="firstright"
-    PageNumberFormat="lower-roman"
-    StartPageLayout="false"
-    AutoEndOnLeftPage="enabled"></TocEntry>
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/images/Images.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
-    PageType="firstright"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    PageNumberFormat="decimal">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/images/ImagePositionedLeft.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/images/ImagePositionedRight.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/images/ImageWithAbsolutePosition.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/images/ImageWithinList.htm" />
-  </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/links_and_lists/Lists.htm"
@@ -69,7 +31,7 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue"
-    BreakType="chapter"
+    BreakType="none"
     PageType="firstright"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -83,11 +45,11 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue"
-    BreakType="chapter"
+    BreakType="none"
     PageType="firstright"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/Index.htm"
+    Link="/Content/print_only/Index.htm"
     BreakType="pageLayout"
     PageLayout="/Content/Resources/PageLayouts/7X9/Index7X9.flpgl"
     PageType="firstright"

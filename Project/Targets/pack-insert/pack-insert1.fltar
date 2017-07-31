@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="User Guide B—7X9"
+  Comment="Example Protocol"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/User Guide B 7X9.fltoc"
-  ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideB]exclude[General.Online or PrintGuides.UserGuideA]"
+  MasterToc="/Project/TOCs/protocol/protocol.fltoc"
+  ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="true"
   InjectEmptyPages="true">
   <PrintedOutput
@@ -14,18 +14,20 @@
     ExpandingTextConversion="expand"
     PopupConversion="remove-body" />
   <DocumentProperties
-    Title="User Guide B—7X9"
-    Author="My Name" />
+    Title="Example Protocol"
+    Author="Author Name"
+    Subject="Some Subject"
+    Keywords="Some Keywords" />
   <PDF
     ShowUsedBookmarks="false"
-    InitialMagnification="50"
-    PageLayout="TwoColumnRight"
+    InitialMagnification="125"
+    PageLayout="OneColumn"
     TitleBar="DocumentTitle"
     CollapsedBookmarks="true"
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true" />
   <Variables>
     <Variable
-      Name="General/UserGuideTitle">User Guide B</Variable>
+      Name="protocol/part-number">BBB-BBBBB</Variable>
   </Variables>
 </CatapultTarget>

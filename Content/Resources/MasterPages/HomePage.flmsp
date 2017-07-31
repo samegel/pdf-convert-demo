@@ -16,7 +16,7 @@
                     <div>
                         <div class="footer-links"><a href="../../footer_topics/PDF Downloads.htm">PDFs</a><a href="../../footer_topics/Tips.htm">Tips</a><a href="../../footer_topics/FAQs.htm">FAQs</a><a href="../../footer_topics/Company Information.htm">Company</a>
                         </div>
-                        <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.CompanyName" /></p>
+                        <p class="Copyright">Copyright © <MadCap:variable name="general.Year" MadCap:name="general.year" /> <MadCap:variable name="general.CompanyName" MadCap:name="general.company" /></p>
                     </div>
                     <div class="footer-icons"><a href="https://twitter.com/#!/MadCapDocTeam" target="_blank"><img src="../Images/TwitterIcon.png" alttext="" class="Hyperlinked" /></a><a href="http://www.facebook.com/madcapdocteam" target="_blank"><img src="../Images/FacebookIcon.png" alttext="" class="Hyperlinked" /></a>
                     </div>

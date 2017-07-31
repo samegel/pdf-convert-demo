@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="product"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="Product Name A">Product Name A</Variable>
+  <Variable
+    Name="protocol-name"
+    Comment=""
+    EvaluatedDefinition="Protocol A">Protocol A</Variable>
+  <Variable
+    Name="protocol-doc-number"
+    Comment=""
+    EvaluatedDefinition="AAA-AAAAA">AAA-AAAAA</Variable>
+  <Variable
+    Name="protocol-doc-number"
+    Comment=""
+    EvaluatedDefinition="BBB-BBBBB">BBB-BBBBB</Variable>
+  <Variable
+    Name="protocol-doc-number"
+    Comment=""
+    EvaluatedDefinition="CCC-CCCCC">CCC-CCCCC</Variable>
+  <Variable
+    Name="protocol-doc-number"
+    Comment=""
+    EvaluatedDefinition="DDD-DDDDD">DDD-DDDDD</Variable>
+  <Variable
+    Name="protocol-name"
+    Comment=""
+    EvaluatedDefinition="Protocol B">Protocol B</Variable>
+  <Variable
+    Name="protocol-name"
+    Comment=""
+    EvaluatedDefinition="Protocol C">Protocol C</Variable>
+  <Variable
+    Name="protocol-name"
+    Comment=""
+    EvaluatedDefinition="Protocol D">Protocol D</Variable>
+  <Variable
+    Name="product"
+    Comment=""
+    EvaluatedDefinition="Product Name B">Product Name B</Variable>
+  <Variable
+    Name="product"
+    Comment=""
+    EvaluatedDefinition="Product Name C">Product Name C</Variable>
+  <Variable
+    Name="product"
+    Comment=""
+    EvaluatedDefinition="Product Name D">Product Name D</Variable>
+</CatapultVariableSet>

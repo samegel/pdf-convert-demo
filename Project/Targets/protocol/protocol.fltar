@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="User Guide A—7X9"
+  Comment="User Guide A—8.5X11"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/User Guide A 7X9.fltoc"
+  MasterToc="/Project/TOCs/protocol/protocol.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="true"
   InjectEmptyPages="true"
-  UseLocalBuildSettings="true"
-  IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041">
+  MasterStylesheet="/Content/Resources/Stylesheets/main.css">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body" />
   <DocumentProperties
-    Title="User Guide A—7X9"
+    Title="Example PDF"
     Author="My Name" />
   <PDF
     ShowUsedBookmarks="false"
-    InitialMagnification="50"
-    PageLayout="TwoColumnRight"
+    InitialMagnification="125"
+    PageLayout="OneColumn"
     TitleBar="DocumentTitle"
     CollapsedBookmarks="true"
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true" />
+  <Variables>
+    <Variable
+      Name="general/part-number">BBB-BBBBB</Variable>
+  </Variables>
 </CatapultTarget>
