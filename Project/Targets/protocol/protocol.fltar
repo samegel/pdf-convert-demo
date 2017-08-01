@@ -9,7 +9,7 @@
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="true"
   InjectEmptyPages="true"
-  MasterStylesheet="/Content/Resources/Stylesheets/main.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
