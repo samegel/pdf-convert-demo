@@ -21,32 +21,10 @@
     PageLayout="/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/links_and_lists/Lists.htm"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
-    PageNumber=""
-    PageNumberReset="continue"
-    StartPageLayout="false"
-    StartSection="false"
-    AutoEndOnLeftPage="enabled"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    BreakType="none"
-    PageType="firstright"></TocEntry>
+    Link="/Content/documentA-gwgb-ir-988-14772/intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/conditions/Tables.htm"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
-    PageNumber=""
-    PageNumberReset="continue"
-    StartPageLayout="false"
-    StartSection="false"
-    AutoEndOnLeftPage="enabled"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    BreakType="none"
-    PageType="firstright"></TocEntry>
+    Link="/Content/documentA-gwgb-ir-988-14772/good_weseterns_gone_bad.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/print_only/Index.htm"

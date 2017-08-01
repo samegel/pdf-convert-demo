@@ -41,7 +41,7 @@
   <Variable
     Name="part-number"
     Comment=""
-    EvaluatedDefinition="AAA-AAAAA">AAA-AAAAA</Variable>
+    EvaluatedDefinition="PART NUMBER">PART NUMBER</Variable>
   <Variable
     Name="part-number"
     Comment=""

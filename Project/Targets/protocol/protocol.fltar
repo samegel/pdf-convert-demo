@@ -27,6 +27,6 @@
     ConvertToCMYK="true" />
   <Variables>
     <Variable
-      Name="general/part-number">BBB-BBBBB</Variable>
+      Name="general/part-number">PART NUMBER</Variable>
   </Variables>
 </CatapultTarget>
