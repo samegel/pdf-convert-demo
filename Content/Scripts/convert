@@ -1,0 +1,23 @@
+#!/bin/bash
+# Batch process to convert HTML to Flare XHTML using adobedc-html2xhtml.py
+
+# input dir
+input_dir=$1
+
+# output dir for convertd xhtml
+output_dir=$2
+
+for file in $input_dir/*.html; do
+	html_file=$(basename $file)
+	assets_dir=$(echo $html_file | sed -E 's/\.html$//g')
+	htm_file=$(echo $html_file | sed -E 's/l$//g')
+
+	# copy assets to output directory
+	cp -R $input_dir/$assets_dir $output_dir/$assets_dir
+
+	# convert
+	python ~/bin/adobedc-html2xhtml.py $input_dir/$html_file $output_dir/$htm_file
+
+	# prettify using the installed node html module (https://www.npmjs.com/package/html)
+	html $output_dir/*.htm
+done
