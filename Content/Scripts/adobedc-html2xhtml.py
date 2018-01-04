@@ -33,10 +33,10 @@ for tag in bod():
 	elif tag.name == "span":
 		tag.unwrap()
 	elif tag.name in ["h1", "h2", "h3", "h4", "div", "ol", "ul", "li", "p"]:
-		if re.search(r'\w', tag.get_text()) or tag.contents[0].name in ["img", "h1", "h2", "h3", "h4", "div", "li", "ol", "ul", "p", "span"]:
-			pass
-		else:
+		if len(tag.text) == 0:
 			tag.decompose()
+		else:
+			pass
 	else:
 		pass
 
